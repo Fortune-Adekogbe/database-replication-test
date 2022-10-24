@@ -1,0 +1,24 @@
+
+PRAGMA writable_schema = 1;
+DELETE FROM sqlite_master;
+DELETE FROM demo;
+DELETE FROM chinook;
+DELETE FROM media_types;
+DELETE from sqlite_sequences
+DELETE from sqlite_sequence
+DELETE from _litestream_lock
+DELETE from _litestream_seq
+DELETE from sqlite_stat1
+DELETE from playlist_track
+DELETE from playlists
+DELETE from invoice_items
+DELETE from tracks
+DELETE from media_types
+DELETE from invoices
+DELETE from genres
+DELETE from customers
+DELETE from employees
+DELETE from albums
+DELETE from artists
+PRAGMA writable_schema = 0;
+PRAGMA integrity_check;
